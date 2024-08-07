@@ -1,5 +1,5 @@
 export interface VolumeControlPlugin {
-  getCurrentVolume(options?: { streamType?: StreamType }): Promise<{ volume: number }>;
+  getVolume(options?: { streamType?: StreamType }): Promise<{ volume: number }>;
   setVolume(options: { volume: number; showUI?: boolean; streamType?: StreamType }): Promise<void>;
 }
 

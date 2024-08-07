@@ -15,7 +15,7 @@ public class VolumeControlPlugin: CAPPlugin {
         }
     }
     
-    @objc func getCurrentVolume(_ call: CAPPluginCall) {
+    @objc func getVolume(_ call: CAPPluginCall) {
         let audioSession = AVAudioSession.sharedInstance()
         do {
             try audioSession.setActive(true)

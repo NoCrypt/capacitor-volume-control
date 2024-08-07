@@ -34,7 +34,7 @@ public class VolumeControlPlugin extends Plugin {
     }
 
     @PluginMethod
-    public void getCurrentVolume(PluginCall call) {
+    public void getVolume(PluginCall call) {
         String streamTypeString = call.getString("streamType", "STREAM_MUSIC");
         int streamType = getAudioStreamType(streamTypeString);
 
