@@ -15,8 +15,8 @@ The value are normalized to `0-100` range
 ## Install
 
 ```bash
-npm install capacitor-volume-control
-npx cap sync
+pnpm install capacitor-volume-control
+pnpm exec cap sync
 ```
 
 ## Usage
